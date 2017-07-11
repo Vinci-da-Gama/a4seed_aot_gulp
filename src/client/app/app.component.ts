@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import * as firebase from "firebase";
 import { Config } from './shared/config/env.config';
 import './operators';
 
@@ -14,5 +15,13 @@ import './operators';
 export class AppComponent {
   constructor() {
     console.log('Environment config', Config);
+    /*const firebaseConfig = {
+	    apiKey: "xxx",
+	    authDomain: "xxx",
+	    databaseURL: "xxx",
+	    storageBucket: "xxx",
+	    messagingSenderId: "xxx"
+    }
+    firebase.initializeApp(firebaseConfig);*/
   }
 }

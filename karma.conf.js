@@ -41,6 +41,9 @@ module.exports = function (config) {
       // RxJs.
       { pattern: 'node_modules/rxjs/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
+      
+      //Firebase
+      { pattern: 'node_modules/firebase/**/*.js', included: false, watched: false },
 
       // paths loaded via module imports
       // Angular itself

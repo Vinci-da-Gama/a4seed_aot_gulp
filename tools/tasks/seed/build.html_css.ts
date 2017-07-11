@@ -35,7 +35,7 @@ if (isProd) {
 }
 
 const appSCSSFiles      = join(Config.APP_SRC, '**', '*.scss');
-const entrySCSSFiles    = join(Config.CSS_SRC, '**', '*.scss');
+const entrySCSSFiles    = join(Config.CSS_SRC, 'main.scss');
 const abtractSCSSFiles  = join(Config.SCSS_SRC, '**', '*.scss');
 
 /**
