@@ -25,8 +25,8 @@ import { BuildType, ExtendPackages, InjectableDependency } from './seed.config.i
  * @type {Environments}
  */
 export const BUILD_TYPES: BuildType = {
-  DEVELOPMENT: 'dev',
-  PRODUCTION: 'prod'
+    DEVELOPMENT: 'dev',
+    PRODUCTION: 'prod'
 };
 
 /**
@@ -509,8 +509,8 @@ export class SeedConfig {
     'ie >= 10',
     'ie_mob >= 10',
     'ff >= 30',
-    'chrome >= 34',
-    'safari >= 7',
+    'chrome >= 35',
+    'safari >= 8',
     'opera >= 23',
     'ios >= 7',
     'android >= 4.4',
